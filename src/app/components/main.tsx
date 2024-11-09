@@ -5,7 +5,7 @@ import myPic from "../../../data/mypic1.01.png"
 const Main = () => {
     return (
         <div className='mainBody' id='home'>
-            <div className="mainLeft">
+            <div className="mainLeft" data-aos="fade-up">
                 <div className="leftHeading">
                     <p>Hello, Its me <span>Ahmed Raza</span></p>
                 </div>
@@ -24,7 +24,7 @@ const Main = () => {
                     </button>
                 </div>
             </div>
-            <div className="mainRight">
+            <div className="mainRight" data-aos="fade-up">
                 {/* <div className="imageContainer"> */}
                 <Image src={myPic} alt='mypic' className='image' />
                 {/* </div> */}

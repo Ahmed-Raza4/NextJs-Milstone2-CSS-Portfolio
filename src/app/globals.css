@@ -31,6 +31,7 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   /* background-color: var(--background-light) */
 
 }
@@ -217,6 +218,7 @@
   display: flex;
   padding-left: 50px;
   padding-top: 60px;
+  overflow-y: hidden;
 }
 .mainLeft{
   width: 50%;
@@ -763,8 +765,17 @@
   scroll-margin-top: 20px;
   width: 100%;
   background-color: var(--background-light);
+  
 }
-
+.section-wrapper .container form{
+  overflow-y: hidden;
+}
+.section-wrapper .container .contact-links a{
+  overflow-y: hidden;
+}
+.email-contact p{
+  overflow-y: hidden;
+}
 .contactMainBody h2 {
   font-size: 42px; 
   font-weight: bold;

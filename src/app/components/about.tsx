@@ -5,10 +5,10 @@ import myPic2 from "../../../data/mypic2.01.png"
 const About = () => {
   return (
     <div className='mainAbout' id='about'>
-        <div className="leftAbout">
+        <div className="leftAbout" data-aos="fade-right">
         <Image src={myPic2} alt='mypic' className='image' />
         </div>
-        <div className="rightAbout">
+        <div className="rightAbout" data-aos="fade-left">
         <div className="aboutHeading">
             <p>About <span>Me</span></p>
         </div>

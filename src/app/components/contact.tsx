@@ -6,7 +6,7 @@ const Contact = () => {
     <h2> Lets <span>Contact Us</span></h2>
     <p>We would love to hear from you! Feel free to drop us a message.</p>
     <div className="form-container">
-        <section className="section-wrapper">
+        <section className="section-wrapper" data-aos="flip-left">
             <div className="container">
                 <form>
                     <input type="text" placeholder="Your Name" />
