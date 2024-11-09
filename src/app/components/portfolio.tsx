@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import fruits from "../../../data/fruits1.jpg"
 import medical from "../../../data/medical.jpg"
-import counter from "../../../data/counter.png"
+import counter from "../../../data/counter1.png"
 import resume from "../../../data/resume.png"
 import resume2 from "../../../data/resume2.png"
 import student from "../../../data/student.jpg"
@@ -35,10 +35,18 @@ const Portfolio = () => {
                 </div>
                 <div className="proBlogChild">
                     <div className="imageContainer">
-                    <Image className="imagePro" src={counter} alt="counter"/>
+                    <Image className="imagePro" src={student} alt="student"/>
                     </div>
-                    <h1 className="proBlogTitle"><a href="https://counter-application-alpha.vercel.app/" target='-blank'>
-                    Countrer - React Counter App</a>
+                    <h1 className="proBlogTitle"><a href="https://github.com/Ahmed-Raza4/Project06_student_management_system" target='-blank'>
+                    Student Management System</a>
+                    </h1>
+                </div>
+                <div className="proBlogChild">
+                    <div className="imageContainer">
+                    <Image className="imagePro" src={counter} alt="student"/>
+                    </div>
+                    <h1 className="proBlogTitle"><a href="https://github.com/Ahmed-Raza4/Project06_student_management_system" target='-blank'>
+                    Student Management System</a>
                     </h1>
                 </div>
                 <div className="proBlogChild">
@@ -57,14 +65,7 @@ const Portfolio = () => {
                     Resume Builder with Download Feature</a>
                     </h1>
                 </div>
-                <div className="proBlogChild">
-                    <div className="imageContainer">
-                    <Image className="imagePro" src={student} alt="student"/>
-                    </div>
-                    <h1 className="proBlogTitle"><a href="https://github.com/Ahmed-Raza4/Project06_student_management_system" target='-blank'>
-                    Student Management System</a>
-                    </h1>
-                </div>
+                
             </div>
         </div>
 

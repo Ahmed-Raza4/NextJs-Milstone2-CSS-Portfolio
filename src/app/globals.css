@@ -36,20 +36,17 @@
 
 .mainHeader {
   width: 100%;
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--background-light);
   padding: 0 25px;
   transition: 0.3s;
+  z-index: 5;
 }
 
-.logo a {
-  display: block;
-}
-
-.logo a Image {
+.logo Image {
   display: block;
   width: 100%;
 }
@@ -85,6 +82,33 @@
   color: var(--primary-purple);
 }
 
+@media only screen and (max-width: 800px) {
+  .menu{
+    border: 1px solid var(--primary-purple);
+    margin-right: -70px;
+  }
+
+}
+@media only screen and (max-width: 560px) {
+  .mainHeader{
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 0px 10px
+  }
+  .menu li a{
+    padding: 5px 15px
+  }
+
+}
+@media only screen and (max-width: 450px) {
+  .menu li a{
+    font-size: 14px ;
+  }
+
+}
+
+
+/* 
 .hamburgar {
   position: relative;
   width: 30px;
@@ -185,7 +209,7 @@
     font-size: 24px;
     box-shadow: 2px 1px 0px var(--neutral-gray) inset;
   }
-}
+} */
 
 .mainBody{
   width: 100%;
@@ -193,6 +217,7 @@
   background-color: var(--background-light);
   display: flex;
   padding-left: 50px;
+  padding-top: 60px;
 }
 .mainLeft{
   width: 50%;
@@ -289,11 +314,13 @@
 @media screen and (min-width:900px) {
   .mainBody{
     height:  100vh;
+    padding-top: 60px;
   }
 }
 @media screen and (max-width:900px) {
   .mainBody{
     height:  80vh;
+    padding-top: 60px;
   }
   .mainRight .image{
     height: 250px;
@@ -335,6 +362,8 @@
     justify-content: center;
     align-items: center;
     padding-left: 20px;
+    /* margin-top: 100px; */
+    padding-top: 150px;
   }
   .mainRight{
     width: 100%;
@@ -371,6 +400,12 @@
     flex-direction: column;
     gap: 10px;
   }
+}
+@media only screen and (max-width: 560px) {
+  .mainBody{
+    padding-top: 180px;
+  }
+  
 }
 @media screen and (max-width:450px) {
   .mainRight .image{
