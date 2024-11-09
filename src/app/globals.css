@@ -521,7 +521,7 @@
 @media screen and (max-width:900px) {
   .mainAbout{
     height: 80vh;
-    scroll-margin-top: 40px;
+    scroll-margin-top: 70px;
   }
  .leftAbout{
    width: 100%;
@@ -568,7 +568,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    scroll-margin-top: 50px;
+    scroll-margin-top: 70px;
   }
  .leftAbout{
    width: 100%;
@@ -614,7 +614,7 @@
 
 @media screen and (max-width:450px) {
   .mainAbout{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 70px;
   }
  .leftAbout .image{
     height: 150px;
@@ -736,7 +736,7 @@
 
 @media screen and (max-width:500px) {
   .mainPortfolio{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 60px;
   }
   .portfolioHeading{
     padding-top: 40px;
@@ -894,7 +894,7 @@
 
 @media screen and (max-width:550px) {
   .contactMainBody{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 60px;
   }
 }
 
