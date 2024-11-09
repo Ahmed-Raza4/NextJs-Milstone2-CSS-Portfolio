@@ -24,7 +24,7 @@ const Contact = () => {
                     </a>
                 </div>
                 <div className="email-contact">
-                    <p>Prefer direct email? Reach us at <a href="mailto:hafizahmedraza12345@gmail.com">HafizAhmedRaza12345@gmail.com</a></p>
+                    <p>Prefer direct email? Reach us at <a href="mailto:hafizahmedraza12345@gmail.com">hafizahmedraza12345@gmail.com</a></p>
                 </div>
             </div>
         </section>

@@ -934,5 +934,11 @@
     align-items: center;
     gap: 10px;
   }
+  .madeBy span {
+    font-size: 12px;
+  }
+  .madeBy a {
+    font-size: 8px;
+  }
 }
 
