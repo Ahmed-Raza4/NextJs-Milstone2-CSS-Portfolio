@@ -521,6 +521,7 @@
 @media screen and (max-width:900px) {
   .mainAbout{
     height: 80vh;
+    scroll-margin-top: 40px;
   }
  .leftAbout{
    width: 100%;
@@ -567,6 +568,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    scroll-margin-top: 50px;
   }
  .leftAbout{
    width: 100%;
@@ -611,6 +613,9 @@
 }
 
 @media screen and (max-width:450px) {
+  .mainAbout{
+    scroll-margin-top: 50px;
+  }
  .leftAbout .image{
     height: 150px;
     width: 150px;
@@ -730,6 +735,9 @@
 }
 
 @media screen and (max-width:500px) {
+  .mainPortfolio{
+    scroll-margin-top: 50px;
+  }
   .portfolioHeading{
     padding-top: 40px;
     font-size: 32px;
@@ -742,7 +750,7 @@
     font-size: 18px;
 }
 }
-@media screen and (max-width:3760px) {
+@media screen and (max-width:360px) {
   .proBlogTitle{
     font-size: 14px;
   }
@@ -884,7 +892,11 @@
   box-shadow: 0 0 10px var(--background-white);
 }
 
-
+@media screen and (max-width:550px) {
+  .contactMainBody{
+    scroll-margin-top: 50px;
+  }
+}
 
 .footer {
   width: 100%;
