@@ -4,7 +4,7 @@ import myPic from "../../../data/mypic1.01.png"
 
 const Main = () => {
     return (
-        <div className='mainBody'>
+        <div className='mainBody' id='home'>
             <div className="mainLeft">
                 <div className="leftHeading">
                     <p>Hello, Its me <span>Ahmed Raza</span></p>

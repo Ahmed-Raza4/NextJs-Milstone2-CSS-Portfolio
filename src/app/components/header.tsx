@@ -20,7 +20,7 @@ const Header = () => {
         {/* <input type="checkbox" className='toggleMenu'/>
         <div className="hamburgar"></div> */}
         <ul className='menu'>
-          <Link href={"/"}><li>  <a href="">Home</a></li></Link>
+          <Link href={"#home"}><li>  <a href="">Home</a></li></Link>
           <li><a href='#about'>About</a></li>
           <li><a href='#portfolio'>Portfolio</a></li>
           <li><a href='#contact'>Contact</a></li>
