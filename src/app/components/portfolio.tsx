@@ -53,7 +53,7 @@ const Portfolio = () => {
                         <div className="imageContainer">
                             <Image className="imagePro" src={counter} alt="student" />
                         </div>
-                        <h1 className="proBlogTitle"><a href="counter-application-alpha.vercel.app" target='-blank'>
+                        <h1 className="proBlogTitle"><a href="https://counter-application-alpha.vercel.app/" target='-blank'>
                             Counter Application</a>
                         </h1>
                     </div>
