@@ -53,8 +53,8 @@ const Portfolio = () => {
                         <div className="imageContainer">
                             <Image className="imagePro" src={counter} alt="student" />
                         </div>
-                        <h1 className="proBlogTitle"><a href="https://github.com/Ahmed-Raza4/Project06_student_management_system" target='-blank'>
-                            Student Management System</a>
+                        <h1 className="proBlogTitle"><a href="counter-application-alpha.vercel.app" target='-blank'>
+                            Counter Application</a>
                         </h1>
                     </div>
                     <div className="proBlogChild" data-aos="fade-left"
